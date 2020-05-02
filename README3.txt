@@ -10,7 +10,7 @@ mevcuttur.
 
 Testimizin ilk aşaması bağlantı kesme BluetoothClient.Disconnect(bağlantı kesme) işlemi
 gerçekleştirilir ve ListPicker (kullanıcının aralarından seçim yapabileceği metinlerin bir
-listesini görüntüleyen bir düğme)ile listelenir. Geri bağlanmak için BluetoothClient.
+listesini görüntüleyen bir düğme) ile listelenir. Geri bağlanmak için BluetoothClient.
 AddressesAndNames(bağlantı) yapılır ve şifre girilmesi beklenir. Burada if-then-else komutu
 kullanılır şifre doğruluğuna göre yönlendirme yapar.Labeller yardımı ile mesaj verirler ama 
 butona basıldığında aktif hale gelirler. Onun dışında görünmezler. Ayrıca yardımcı info vardır

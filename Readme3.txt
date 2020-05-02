@@ -5,6 +5,9 @@ Giriş-çıkış kodlarına "Entegrasyon_Testi/Cihaz_Kontrolleri/Cihaz" dan ula�
 Çıktıların entegresyonu burada gerçekleştirilmiştir.
 Çıktı doğru görüntülenirse doğru entegre edilmiş olur.
 
+Henüz veritabanı ve ardunio verilirimiz tam olarak girilmediğinden, testlerimizde eksiklerimiz 
+mevcuttur. 
+
 Testimizin ilk aşaması bağlantı kesme BluetoothClient.Disconnect(bağlantı kesme) işlemi
 gerçekleştirilir ve ListPicker (kullanıcının aralarından seçim yapabileceği metinlerin bir
 listesini görüntüleyen bir düğme)ile listelenir. Geri bağlanmak için BluetoothClient.

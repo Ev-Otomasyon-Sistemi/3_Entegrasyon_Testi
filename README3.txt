@@ -13,5 +13,7 @@
   Bu modül ve sensörler tek tek rahat şekilde çalışır gibi bir arada sorunsuz çalışır hale getirilir. 
   Bu testlerin uygulanıp eksiklerin giderilmesinin ardından yapılan işlemler kullanıcı karşına çıkmaya hazır hale gelmiş olur.
 
-   Her bir modül tek sistem üzerinde bir birinden bağımsız şekilde çalışmaktadır. Bu çalışma kullanılan sensörler ve mobil uygulama ile tetiklenip çalışmaktadır.   
-  Sisteme gerekli sensörler teker teker aşamalı bir şekilde dahil edilip her sensörden sonra işlemin başarılı olup olmadığı test edilmiştir. Her adımda bir başka sensör eklenerek hepsinin çalışma durumu kontrol edilip onaylanmıştır.  
+   Her bir modül tek sistem üzerinde bir birinden bağımsız şekilde çalışmaktadır. 
+   Bu çalışma kullanılan sensörler ve mobil uygulama ile tetiklenip çalışmaktadır.   
+  Sisteme gerekli sensörler teker teker aşamalı bir şekilde dahil edilip her sensörden sonra işlemin başarılı olup olmadığı test edilmiştir. 
+  Her adımda bir başka sensör eklenerek hepsinin çalışma durumu kontrol edilip onaylanmıştır.  

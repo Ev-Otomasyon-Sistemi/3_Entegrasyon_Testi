@@ -1,21 +1,6 @@
-Uygulamanın görsel erişimleri "Entegrasyon_Testi/Uygulama" klasörünün içerisinde mevcuttur. 
-Bu klasörden mobil uygulamamızda kullandığımız görsel ve iconlara erişim sağlayabilirsiniz.
+  ENTEGRASYON TESTİ
+  Oluşturulan yazılım modüllerinin, bir araya getirerek doğruluğunu sağlamaktır. Yazılım ürünü için oluşturulan tüm modüller bir araya getirilir ve bu şekilde test edilir. Burada ki amaç: metotlar birim başına testten geçerken, modüller halinde bir araya geldiğinde bazı hatalara sebep oluyor olabilirler. Entegrasyon testleri ile ise geliştirdiğimiz yeni bir modülün sorunsuz çalışabileceğinden hızlı bir şekilde emin olabilmemizi sağlamaktadır.       
+  Entegrasyon testi bir yazılımın bileşenlerinin birbirine entegre edilmesi sırasında yapılabileceği gibi iki farklı yazılımın birbirine entegre edilmesi sırasında da yapılabilir. Bu yüzden entegrasyon testi, birim entegrasyon testi ve sistem entegrasyon testi olarak farklı test seviyelerinde yapılabilir. Yazılım geliştirme uzmanlarının birim test sırasında ayrı ayrı test ettikleri bileşenler birbirine entegre edildikleri zaman hataya sebep olabilirler. Entegrasyon testi, sistemin bu farklı bileşenlerinin birlikte doğru çalışıp çalışmadıklarını test etmeyi amaçlar.      Bu testler ile kullanıcının yaşaması muhtemel olası sorunların ortadan kalkması hedeflenir.   Daha önceden testler sonucu sorunlar belirlenir ve çözümlenir. Bu sayede yaşanabilecek aksaklıklar en aza indirgenmiş olur. Modüllerin birbiri ile uyumu test edilir. Gerekli kod çakışmaları belirlenip çözümlenir. Bu modül ve sensörler tek tek rahat şekilde çalışır gibi bir arada sorunsuz çalışır hale getirilir. Bu testlerin uygulanıp eksiklerin giderilmesinin ardından yapılan işlemler kullanıcı karşına çıkmaya hazır hale gelmiş olur.
 
-Giriş-çıkış kodlarına "Entegrasyon_Testi/Cihaz_Kontrolleri/Cihaz" dan ulaşabilirsiniz.
-Çıktıların entegresyonu burada gerçekleştirilmiştir.
-Çıktı doğru görüntülenirse doğru entegre edilmiş olur.
-
-Henüz veritabanı ve ardunio verilirimiz tam olarak girilmediğinden, testlerimizde eksiklerimiz 
-mevcuttur. 
-
-Testimizin ilk aşaması bağlantı kesme BluetoothClient.Disconnect(bağlantı kesme) işlemi
-gerçekleştirilir ve ListPicker (kullanıcının aralarından seçim yapabileceği metinlerin bir
-listesini görüntüleyen bir düğme) ile listelenir. Geri bağlanmak için BluetoothClient.
-AddressesAndNames(bağlantı) yapılır ve şifre girilmesi beklenir. Burada if-then-else komutu
-kullanılır şifre doğruluğuna göre yönlendirme yapar.Labeller yardımı ile mesaj verirler ama 
-butona basıldığında aktif hale gelirler. Onun dışında görünmezler. Ayrıca yardımcı info vardır
-bu sayede bağlantının nasıl olacağı hakkında bilgi verir. Kullanıcı ev sıcaklığını görmek 
-istediğinde gerekli butona tıkladığında bağlantı olup olmadığını içi içe if-then-else ve 
-if-then komutları ile yapar eğer bağlantı var ise evin sıcaklık değerini gerekli TextBoxda 
-gösteriri , fakat yok ise ‘‘bağlantı sorunu’’ hatta mesajını verir. Bu aşamaya kadar testlermiz 
-bu şekilde yapılmıştır. İlerleyen aşamalarda test aşamaları detaylandırılacaktır.
+   Her bir modül tek sistem üzerinde bir birinden bağımsız şekilde çalışmaktadır. Bu çalışma kullanılan sensörler ve mobil uygulama ile tetiklenip çalışmaktadır.   
+  Sisteme gerekli sensörler teker teker aşamalı bir şekilde dahil edilip her sensörden sonra işlemin başarılı olup olmadığı test edilmiştir. Her adımda bir başka sensör eklenerek hepsinin çalışma durumu kontrol edilip onaylanmıştır.  
